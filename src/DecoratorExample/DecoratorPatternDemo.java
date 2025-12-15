@@ -3,11 +3,11 @@ package DecoratorExample;
 public class DecoratorPatternDemo {
 
     void main() {
-        Shape c1 = new Circle();
-        ShapeDecorator sd1 = new ShapeDecorator(c1);
-        sd1.draw();
+
+        Circle c1 = new Circle();
+        c1.draw();
         IO.println();
-        ShapeDecorator r1 = new ShapeDecorator(new Rectangle());
+        Rectangle r1 = new Rectangle();
         r1.draw();
         IO.println();
 
@@ -16,6 +16,6 @@ public class DecoratorPatternDemo {
 
         ShapeDecorator c1red = new RedShapeDecorator(new Circle());
         c1red.draw();
-        
+
     }
 }

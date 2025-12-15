@@ -4,8 +4,8 @@ public class RedShapeDecorator extends ShapeDecorator{
     public Shape shape;
 
     public RedShapeDecorator(Shape shape) {
-        this.shape = shape;
         super(shape);
+        this.shape = shape;
     }
 
     @Override
