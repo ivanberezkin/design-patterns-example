@@ -7,8 +7,8 @@ public class MVCPatternDemo {
 
     MVCPatternDemo() {
         StudentDatabase studentDatabase = StudentDatabase.getInstance();
-        Student s1 = studentDatabase.retrieveStudentFromDatabase("Viktor");
-        Student s2 = studentDatabase.retrieveStudentFromDatabase("Niklas");
+        Student s1 = studentDatabase.retrieveStudentFromDatabase("Niklas");
+        Student s2 = studentDatabase.retrieveStudentFromDatabase("Viktor");
         Student s3 = studentDatabase.retrieveStudentFromDatabase("Ivan");
 
         StudentView view = new StudentView();

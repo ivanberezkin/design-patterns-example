@@ -1,5 +1,8 @@
 package MVCpatternExample;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class StudentController {
     private Student model;
     private StudentView view;
